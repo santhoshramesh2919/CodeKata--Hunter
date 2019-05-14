@@ -1,3 +1,4 @@
+#Minimum value
 def func(li):
   min=[]
   for i in range(0,len(li)-1):
@@ -10,7 +11,9 @@ def func(li):
         else:
           if li[i]+li[j]<sum(min):
             min=[li[i],li[j]]
-  return min
+  print(*min)
+  return
 n=int(input())
 li=list(map(int,input().split()))
-op=func(li)
+func(li)
+
