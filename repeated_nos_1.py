@@ -6,6 +6,6 @@ for i in arr:
     dic.append(i)
 s=set(dic)
 if len(s)==0:
-  print("Unique")
+  print("unique")
 else:
   print(*s)
