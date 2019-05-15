@@ -7,8 +7,8 @@ for i in li:
   dic[str(i)]=abs(i-k)
 d = sorted((value, key) for (key,value) in dic.items())
 for i in d:
-  op.append(i[1]))
-for i in range(0,2):
+  op.append(i[1])
+for i in range(0,3):
   if i==2:
     print(op[2])
   else:
