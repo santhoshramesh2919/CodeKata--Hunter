@@ -1,3 +1,4 @@
+#Longestv palindrome is removed
 s=input()
 subst=""
 f=0
